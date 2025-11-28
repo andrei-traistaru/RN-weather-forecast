@@ -6,7 +6,7 @@ import os
 
 # Adăugăm calea către config
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
-from config import config
+from Weather_Prediction_RNN.config import config
 
 def load_and_clean_data():
     """Încarcă datele brute și selectează coloanele necesare."""

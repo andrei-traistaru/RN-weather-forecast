@@ -4,9 +4,9 @@ import numpy as np
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 
 # Importuri din modulele noastre
-from config import config
-from src.preprocessing.data_prep import get_processed_data
-from src.neural_network.model_builder import build_lstm_model
+from Weather_Prediction_RNN.config import config
+from Weather_Prediction_RNN.src.preprocessing.data_prep import get_processed_data
+from Weather_Prediction_RNN.src.neural_network.model_builder import build_lstm_model
 
 def main():
     print("--- 1. Preprocesare Date ---")
